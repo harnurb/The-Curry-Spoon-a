@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Curry Spoon | Authentic Indian Flavors & Catering</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .font-serif-heading {
+      font-family: 'Playfair Display', serif;
+    }
+    .hero-bg {
+      background: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1585937421612-70a008356fbe?auto=format&fit=crop&q=80&w=1600') center/cover no-repeat;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+  <!-- Top Announcement / Bar -->
+  <div class="bg-amber-600 text-amber-50 text-sm py-2.5 px-4 text-center font-medium">
+    <p>🔥 Booking Special Events & Party Catering! Call directly: <a href="tel:6208000049" class="underline font-bold hover:text-white transition">620-800-0049</a></p>
+  </div>
+
+  <!-- Header -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-100 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-amber-500 flex items-center justify-center text-white text-xl font-bold shadow-md shadow-amber-500/20">
+          <i class="fa-solid fa-utensils"></i>
+        </div>
+        <div>
+          <span class="font-serif-heading text-2xl font-bold text-slate-900 tracking-tight block leading-none">The Curry Spoon</span>
+          <span class="text-xs tracking-widest uppercase text-amber-600 font-semibold">Authentic Indian Cuisine</span>
+        </div>
+      </div>
+      
+      <a href="tel:6208000049" class="hidden sm:inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white font-semibold px-5 py-2.5 rounded-full transition shadow-md shadow-amber-500/20">
+        <i class="fa-solid fa-phone"></i>
+        <span>620-800-0049</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-bg text-white py-20 lg:py-28 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto grid lg:grid-cols-12 gap-12 items-center">
+      
+      <!-- Hero Copy -->
+      <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/30 text-sm font-medium">
+          <i class="fa-solid fa-star text-amber-400"></i> Local Favorite & Authentic Spices
+        </div>
+        <h1 class="font-serif-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
+          Taste the Rich, Authentic Flavors of India
+        </h1>
+        <p class="text-lg text-slate-300 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+          From slow-simmered curries to freshly baked naan, we bring bold heritage recipes right to your table. Reserve a table or book catering for your next event today!
+        </p>
+        
+        <!-- Quick Callouts -->
+        <div class="pt-4 grid sm:grid-cols-3 gap-4 text-left max-w-xl mx-auto lg:mx-0">
+          <div class="flex items-center gap-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm border border-white/10">
+            <i class="fa-solid fa-fire-flame-curved text-amber-400 text-xl"></i>
+            <span class="text-xs font-semibold text-slate-200">Fresh Ingredients Daily</span>
+          </div>
+          <div class="flex items-center gap-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm border border-white/10">
+            <i class="fa-solid fa-leaf text-emerald-400 text-xl"></i>
+            <span class="text-xs font-semibold text-slate-200">Vegan & Halal Options</span>
+          </div>
+          <div class="flex items-center gap-3 bg-white/10 p-3 rounded-lg backdrop-blur-sm border border-white/10">
+            <i class="fa-solid fa-champagne-glasses text-amber-400 text-xl"></i>
+            <span class="text-xs font-semibold text-slate-200">Full Party Catering</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Lead Capture Form Card -->
+      <div class="lg:col-span-5">
+        <div class="bg-white rounded-2xl shadow-2xl p-6 sm:p-8 text-slate-900 border border-slate-100">
+          <div class="mb-6 text-center">
+            <h2 class="font-serif-heading text-2xl font-bold text-slate-900">Claim Your 15% Off VIP Pass</h2>
+            <p class="text-slate-500 text-sm mt-1">Fill out the form below for reservations, catering quotes, or exclusive promo codes!</p>
+          </div>
+
+          <form action="#" method="POST" class="space-y-4">
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Full Name</label>
+              <input type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition text-sm">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Phone Number</label>
+              <input type="tel" required placeholder="(620) 000-0000" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition text-sm">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Email Address</label>
+              <input type="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition text-sm">
+            </div>
+
+            <div>
+              <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">How can we help you?</label>
+              <select class="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition text-sm text-slate-700">
+                <option value="dine-in">Dine-In Reservation</option>
+                <option value="catering">Event / Party Catering Quote</option>
+                <option value="takeout">Takeout / Pickup Order</option>
+                <option value="general">General Inquiry</option>
+              </select>
+            </div>
+
+            <button type="submit" class="w-full bg-amber-500 hover:bg-amber-600 text-white font-bold py-3.5 rounded-lg shadow-lg shadow-amber-500/30 transition text-base mt-2">
+              Get Discount & Book Now
+            </button>
+            <p class="text-xs text-center text-slate-400 mt-2">We respect your privacy. Instant phone response guaranteed!</p>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Popular Menu Highlights -->
+  <section class="py-20 px-4 sm:px-6 lg:px-8 bg-slate-100">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-amber-600 font-bold uppercase tracking-widest text-xs">Our Specialties</span>
+        <h2 class="font-serif-heading text-3xl sm:text-4xl font-bold text-slate-900 mt-2">Signature Dishes You'll Love</h2>
+        <p class="text-slate-600 mt-3">Hand-crafted using ground spices and traditional clay tandoor ovens.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Item 1 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-slate-200">
+          <img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&q=80&w=800" alt="Butter Chicken" class="h-48 w-full object-cover">
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="font-bold text-xl text-slate-900">Butter Chicken</h3>
+              <span class="text-amber-600 font-bold">$16.99</span>
+            </div>
+            <p class="text-slate-600 text-sm leading-relaxed">Tender chicken cooked in a rich, buttery tomato sauce with aromatic spices.</p>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-slate-200">
+          <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=800" alt="Tandoori Chicken" class="h-48 w-full object-cover">
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="font-bold text-xl text-slate-900">Tandoori Chicken</h3>
+              <span class="text-amber-600 font-bold">$17.99</span>
+            </div>
+            <p class="text-slate-600 text-sm leading-relaxed">Marinated in yogurt and freshly ground spices, roasted to perfection in our traditional tandoor.</p>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition border border-slate-200">
+          <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&q=80&w=800" alt="Paneer Tikka Masala" class="h-48 w-full object-cover">
+          <div class="p-6">
+            <div class="flex justify-between items-center mb-2">
+              <h3 class="font-bold text-xl text-slate-900">Paneer Tikka Masala</h3>
+              <span class="text-amber-600 font-bold">$15.99</span>
+            </div>
+            <p class="text-slate-600 text-sm leading-relaxed">Grilled cottage cheese cubes simmered in a spiced onion-tomato cream sauce.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catering & Events CTA Banner -->
+  <section class="py-16 bg-slate-900 text-white px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 bg-gradient-to-r from-amber-600 to-amber-700 p-8 sm:p-12 rounded-2xl shadow-xl">
+      <div class="space-y-2 text-center lg:text-left">
+        <h2 class="font-serif-heading text-3xl sm:text-4xl font-bold">Planning a Wedding or Special Event?</h2>
+        <p class="text-amber-100 text-base max-w-xl">We cater events of all sizes! Call us directly to discuss custom menu packages designed for your budget.</p>
+      </div>
+      <a href="tel:6208000049" class="bg-white text-slate-900 hover:bg-slate-100 font-bold px-8 py-4 rounded-full transition shadow-lg shrink-0 flex items-center gap-3">
+        <i class="fa-solid fa-phone text-amber-600"></i>
+        <span>Call 620-800-0049</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-400 py-12 px-4 sm:px-6 lg:px-8 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+      <div>
+        <div class="flex items-center gap-2 mb-4">
+          <div class="w-8 h-8 rounded-full bg-amber-500 flex items-center justify-center text-white text-sm font-bold">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <span class="font-serif-heading text-xl font-bold text-white">The Curry Spoon</span>
+        </div>
+        <p class="text-sm text-slate-400">Delivering unforgettable culinary experiences made with passion, tradition, and fresh ingredients.</p>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold mb-4">Contact Info</h4>
+        <ul class="space-y-2 text-sm">
+          <li class="flex items-center gap-2">
+            <i class="fa-solid fa-phone text-amber-500"></i>
+            <a href="tel:6208000049" class="hover:text-white transition">620-800-0049</a>
+          </li>
+          <li class="flex items-center gap-2">
+            <i class="fa-solid fa-clock text-amber-500"></i>
+            <span>Mon-Sun: 11:00 AM - 10:00 PM</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-bold mb-4">Follow Us</h4>
+        <div class="flex gap-4">
+          <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-amber-500 hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-amber-500 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-amber-500 hover:text-white transition"><i class="fa-brands fa-google"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto mt-8 pt-8 border-t border-slate-800 text-xs text-center text-slate-500">
+      &copy; 2026 The Curry Spoon. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
